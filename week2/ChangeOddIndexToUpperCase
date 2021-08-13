@@ -1,0 +1,34 @@
+package saranya.molekule.Test1;
+
+import java.io.CharArrayReader;
+
+import javax.print.DocFlavor.CHAR_ARRAY;
+
+public class ChangeOddIndexToUpperCase {
+	
+	public static void main(String[] args) {
+		
+		String test = "changeme";
+		//cHaNgEmE
+		
+		char [] name = test.toCharArray();
+		
+		for(int i = 0;i <name.length;i++) {
+			if(i%2!=0) {
+//				System.out.println(Character.toUpperCase(name[i]));	
+				name[i] = Character.toUpperCase(name[i]);
+			
+			}
+			
+			
+		}
+		
+		System.out.print(String.valueOf(name));
+
+		
+		
+		
+		
+	}
+
+}
