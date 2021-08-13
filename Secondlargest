@@ -1,0 +1,17 @@
+package saranya.molekule.Test1;
+
+import java.util.Arrays;
+
+import com.sun.tools.javac.util.ArrayUtils;
+
+public class SecondLargestNumber {
+	public static void main(String[] args) {
+		
+		int [] saranya = {3,2,11,4,6,7};
+		Arrays.sort(saranya);
+		System.out.println(saranya[saranya.length-2]);
+	
+
+}
+
+}
