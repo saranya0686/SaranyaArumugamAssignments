@@ -1,0 +1,28 @@
+package saranya.molekule.Test1;
+
+public class FindIntersection {
+	public static void main(String[] args) {
+		int []sar = {3,2,11,4,6,7};
+		int [] saran = {1,2,8,4,9,7};
+		int result []= {};
+		
+		
+		
+		
+		for(int i = 0;i<sar.length;i++) {
+			
+			for(int j = 0;j<saran.length;j++) {
+			
+			 if(sar[i]==saran[j])
+			 {
+				 System.out.println(sar[i]);
+			 }
+			 
+			
+		}
+		
+		
+	}
+
+}
+}
