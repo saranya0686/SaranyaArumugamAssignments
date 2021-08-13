@@ -1,0 +1,28 @@
+package week1.day2;
+
+import java.util.Arrays;
+
+import org.checkerframework.checker.index.qual.LengthOf;
+
+//Sort first n take the and print the last one elemnt lenght -
+public class FindLargestElementInAnArray {
+public static void main(String[] args) {
+	
+	
+	int arrNumber []= {23,34,45,56,78};
+	
+	Arrays.sort(arrNumber);
+	System.out.println("First value-->"+arrNumber[0]);
+	System.out.println("big value-->"+arrNumber[arrNumber.length-1]);
+	//System.out.println(arrNumber.length-1);
+	
+	
+
+}
+	
+	
+
+
+	
+	
+}
